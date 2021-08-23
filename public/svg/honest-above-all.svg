@@ -1,0 +1,24 @@
+<svg id="anim-4" viewBox="0 0 336 327" width="336" height="327" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(1 1)" fill="none" fill-rule="evenodd">
+        <circle class="scaled-1" fill="#FFF" fill-rule="nonzero" cx="161" cy="161" r="113"></circle>
+        <circle class="ring-1" stroke="#2B2B37" opacity=".3" cx="162.5" cy="162.5" r="137.5"></circle>
+        <circle class="ring-2" stroke="#D7DFE8" stroke-width=".5" opacity=".702" cx="162.5" cy="162.5" r="162.5"></circle>
+        <g class="scaled-2">
+            <g transform="translate(173 130)" stroke="#D7DFE8" stroke-width="4">
+                <circle cx="22.96" cy="22.96" r="5.04"></circle>
+                <circle cx="5.04" cy="5.04" r="5.04"></circle>
+                <path d="M25.76 2.24L7.84 20.16"></path>
+            </g>
+            <ellipse stroke="#45435E" stroke-width="6" cx="142.42000000000002" cy="170.548" rx="41.42" ry="41.452"></ellipse>
+            <path transform="translate(104 114)" d="M79.38 62.738C76.386 82.785 59.1 98 38.42 98 15.544 98-3 79.44-3 56.548c0-22.893 18.544-41.453 41.42-41.453 4.87 0 9.626.843 14.103 2.466C57.488 5.318 69.457-3 83.055-3 101.25-3 116 11.762 116 29.97c0 18.21-14.75 32.97-32.945 32.97-1.234 0-2.46-.068-3.674-.202z" stroke="#45435E" stroke-width="6"></path>
+            <path stroke="#45435E" stroke-width="6" d="M119 174.67000000000002L133.232 189 167 155"></path>
+        </g>
+        <g class="star-container">
+            <path class="star-1" d="M289 249.5c0-11.72-2.28-14-14-14 11.72 0 14-2.28 14-14 0 11.72 2.28 14 14 14-11.72 0-14 2.28-14 14z" fill="#3BEE81"></path>
+            <path class="star-2" d="M50 100c0-11.72-2.28-14-14-14 11.72 0 14-2.28 14-14 0 11.72 2.28 14 14 14-11.72 0-14 2.28-14 14z" fill="#3BEE81"></path>
+            <path class="star-3" d="M250 50c0-11.72-2.28-14-14-14 11.72 0 14-2.28 14-14 0 11.72 2.28 14 14 14-11.72 0-14 2.28-14 14z" fill="#3BEE81"></path>
+            <path class="star-4" d="M30 200.5c0-11.72-2.28-14-14-14 11.72 0 14-2.28 14-14 0 11.72 2.28 14 14 14-11.72 0-14 2.28-14 14z" fill="#3BEE81"></path>
+            <path class="star-5" d="M220 300c0-11.72-2.28-14-14-14 11.72 0 14-2.28 14-14 0 11.72 2.28 14 14 14-11.72 0-14 2.28-14 14z" fill="#3BEE81"></path>
+        </g>
+    </g>
+</svg>
