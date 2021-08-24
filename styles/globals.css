@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @layer base {
+    .main-menu {
+      @apply text-sm cursor-pointer relative inline;
+    }
+
+    .main-menu > span {
+      @apply text-gray-300 hover:text-green-500;
+    }
+    .sub-menu {
+      @apply block top-6 absolute bg-white rounded-lg py-2 w-40 -left-10 border-t-4 border-green-400 space-y-1;
+    }
+
+    .sub-menu > li {
+      @apply text-gray-600 hover:text-green-500 py-2 space-x-4 hover:bg-gray-500;
+    }
+    .sub-menu > li > a {
+      @apply ml-4;
+    }
+  }
+}
+
+body {
+  background-color: #2b2b37;
+}
+
+/* .hoverable-links {
+  display: none;
+} */
+/* 
+li:hover .hoverable-links {
+  display: block;
+  position: absolute;
+  top: 1.2em;
+  left: -1.5em;
+}
+
+.hoverable-links > li {
+  display: block;
+} */
