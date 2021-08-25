@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold text-green-500">ChangeNOW</h1>
+        <h1 className="text-xl font-bold text-green-500">ChangeNOW</h1>
       </main>
     </div>
   );

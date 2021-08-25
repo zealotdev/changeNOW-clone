@@ -5,18 +5,19 @@
 @layer base {
   @layer base {
     .main-menu {
-      @apply text-sm cursor-pointer relative inline;
+      @apply cursor-pointer relative text-2xl md:text-sm select-none;
     }
 
     .main-menu > span {
       @apply text-gray-300 hover:text-green-500;
     }
+
     .sub-menu {
-      @apply block top-6 absolute bg-white rounded-lg py-2 w-40 -left-10 border-t-4 border-green-400 space-y-1;
+      @apply pl-12 md:pl-0 top-16 md:top-12 absolute md:bg-white rounded-lg py-2 w-full md:w-40 -left-10 border-t-4 md:border-green-400 space-y-1 z-30;
     }
 
     .sub-menu > li {
-      @apply text-gray-600 hover:text-green-500 py-2 space-x-4 hover:bg-gray-500;
+      @apply text-gray-600 hover:text-green-500 py-2 space-x-4 hover:bg-gray-500 select-none;
     }
     .sub-menu > li > a {
       @apply ml-4;
@@ -28,17 +29,14 @@ body {
   background-color: #2b2b37;
 }
 
-/* .hoverable-links {
-  display: none;
-} */
-/* 
-li:hover .hoverable-links {
-  display: block;
-  position: absolute;
-  top: 1.2em;
-  left: -1.5em;
+@layer utilities {
+  .mobile-menu {
+    background-color: #2b2b37;
+  }
 }
 
-.hoverable-links > li {
-  display: block;
-} */
+@layer utilities {
+  .sing-in-btn {
+    background-color: rgb(54, 55, 70);
+  }
+}
