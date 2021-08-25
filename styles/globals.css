@@ -5,7 +5,7 @@
 @layer base {
   @layer base {
     .main-menu {
-      @apply cursor-pointer relative text-2xl md:text-sm select-none;
+      @apply md:cursor-pointer relative text-2xl md:text-sm;
     }
 
     .main-menu > span {
@@ -17,7 +17,7 @@
     }
 
     .sub-menu > li {
-      @apply text-gray-600 hover:text-green-500 py-2 space-x-4 hover:bg-gray-500 select-none;
+      @apply text-gray-600 hover:text-green-500 py-2 space-x-4 hover:bg-gray-500;
     }
     .sub-menu > li > a {
       @apply ml-4;

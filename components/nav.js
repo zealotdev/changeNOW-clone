@@ -98,7 +98,7 @@ const Nav = () => {
         }
       >
         <li
-          className="items-center space-x-1 lg:space-x-2 main-menu select-none"
+          className="items-center space-x-1 lg:space-x-2 main-menu"
           onClick={(e) => handleClick(e, 'currencies', 'mobile')}
         >
           <div className="flex items-center space-x-2">
@@ -167,7 +167,7 @@ const Nav = () => {
           <span>For Partners</span>
         </li>
         <li
-          className="items-center space-x-1 lg:space-x-2 main-menu select-none"
+          className="items-center space-x-1 lg:space-x-2 main-menu"
           onClick={(e) => handleClick(e, 'products', 'mobile')}
         >
           <div className="flex items-center space-x-2">
@@ -217,11 +217,9 @@ const Nav = () => {
             </ul>
           )}
         </li>
-        <li className="space-x-1 lg:space-x-2 main-menu select-none">
-          Crypto News
-        </li>
+        <li className="space-x-1 lg:space-x-2 main-menu">Crypto News</li>
         <li
-          className="items-center space-x-1 lg:space-x-2 main-menu select-none"
+          className="items-center space-x-1 lg:space-x-2 main-menu"
           onClick={(e) => handleClick(e, 'support', 'mobile')}
         >
           <div className="flex items-center space-x-2">
