@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import { Hero } from '../components/hero';
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
@@ -10,8 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-xl font-bold text-green-500">ChangeNOW</h1>
+      <main className="flex flex-col items-center justify-center w-full flex-1 text-center">
+        <Hero />
       </main>
     </div>
   );
