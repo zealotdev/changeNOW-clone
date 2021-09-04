@@ -36,6 +36,10 @@ select {
 @layer utilities {
   .mobile-menu {
     background-color: #2b2b37;
+    z-index: 99;
+  }
+  .mobile-menu__closed {
+    left: -400rem;
   }
   .sing-in-btn {
     background-color: rgb(54, 55, 70);
