@@ -1,7 +1,9 @@
+import { Tabs } from './tabs';
+
 const Hero = () => {
   return (
     <div className="hero-bg bg-cover bg-no-repeat bg-center w-full h-screen flex justify-between">
-      <div className="text-left mt-20 flex flex-col items-start space-y-4">
+      <div className="text-left flex flex-col items-start space-y-4  mt-20">
         <h1 className="text-5xl font-normal tracking-wider leading-relaxed text-white">
           Limitless Crypto <br /> Exchange
         </h1>
@@ -12,7 +14,9 @@ const Hero = () => {
           Get recommended Wallet
         </button>
       </div>
-      <div>Right</div>
+      <div>
+        <Tabs></Tabs>
+      </div>
     </div>
   );
 };
