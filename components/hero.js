@@ -41,6 +41,100 @@ const Hero = () => {
         />
         <img className="md:hidden mx-auto" src="./svg/mobile-apps.svg" alt="" />
       </div>
+      {/* Hints for large screens */}
+      <div className="hidden md:flex justify-evenly my-20">
+        <div className="flex flex-col items-center h-56 justify-between w-3/12">
+          <img className="h-38 w-40" src="./svg/index/pick.svg" alt="" />
+          <h4 className="font-bold text-white">Pick a Crypto</h4>
+          <p className="text-white font-light">
+            We support more than 10 000 currency pairs and the list is
+            constantly growing.{' '}
+            <a className="underline text-purple-400">Pick</a> the one you like.
+          </p>
+        </div>
+        <img
+          className="h-5 self-center w-8"
+          src="./svg/index/arrow.svg"
+          alt=""
+        />
+        <div className="flex flex-col items-center h-56 justify-between w-3/12">
+          <img className="h-16 w-18" src="./svg/index/exchange.svg" alt="" />
+          <h4 className="font-bold text-white">Exchange</h4>
+          <p className="text-white font-light">
+            We handle everything complicated so that you can spend your time on
+            what matters. No registration. No hidden fees. No surprises.
+          </p>
+        </div>
+        <img
+          className="h-5 self-center w-8"
+          src="./svg/index/arrow.svg"
+          alt=""
+        />
+        <div className="flex flex-col items-center h-56 justify-between w-3/12">
+          <img className="h-16 w-18" src="./svg/index/funds.svg" alt="" />
+          <h4 className="font-bold text-white">Receive your Funds</h4>
+          <p className="text-white font-light">
+            We match the estimate and the outcome better than anyone else,
+            thanks to our RealRates system. And it’s super-fast and safe for
+            you.
+          </p>
+        </div>
+      </div>
+      {/* Hints for Mobile */}
+      <div className="my-20 block md:hidden">
+        <h3 className="text-white font-bold">Simple as 1,2,3</h3>
+        <div className="flex flex-col items-center space-y-10 my-10">
+          <div className="flex flex-col items-center h-56 justify-between w-7/12">
+            <img
+              className="h-38 w-40"
+              src="./svg/index/pick-mobile.svg"
+              alt=""
+            />
+            <h4 className="font-bold text-white">Pick a Crypto</h4>
+            <p className="text-white font-light">
+              We support more than 10 000 currency pairs and the list is
+              constantly growing.{' '}
+              <a className="underline text-purple-400">Pick</a> the one you
+              like.
+            </p>
+          </div>
+          <img
+            className="h-5 self-center w-8 transform rotate-90"
+            src="./svg/index/arrow.svg"
+            alt=""
+          />
+          <div className="flex flex-col items-center h-56 justify-between w-7/12">
+            <img
+              className="h-16 w-18"
+              src="./svg/index/exchange-mobile.svg"
+              alt=""
+            />
+            <h4 className="font-bold text-white">Exchange</h4>
+            <p className="text-white font-light">
+              We handle everything complicated so that you can spend your time
+              on what matters. No registration. No hidden fees. No surprises.
+            </p>
+          </div>
+          <img
+            className="h-5 self-center w-8 transform rotate-90"
+            src="./svg/index/arrow.svg"
+            alt=""
+          />
+          <div className="flex flex-col items-center h-56 justify-between w-7/12">
+            <img
+              className="h-16 w-18"
+              src="./svg/index/funds-mobile.svg"
+              alt=""
+            />
+            <h4 className="font-bold text-white">Receive your Funds</h4>
+            <p className="text-white font-light">
+              We match the estimate and the outcome better than anyone else,
+              thanks to our RealRates system. And it’s super-fast and safe for
+              you.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
