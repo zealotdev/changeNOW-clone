@@ -11,6 +11,9 @@ module.exports = {
           '100%': { left: '-2rem' },
         },
       },
+      backgroundImage: {
+        'hero-img': "url('/public/svg/coins-bg.svg')",
+      },
     },
     variants: {
       extend: {},

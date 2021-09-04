@@ -93,7 +93,7 @@ const Nav = () => {
       <ul
         className={
           !openedMenu
-            ? 'md:hidden absolute -left-96 top-20 w-10/12 mobile-menu h-screen font-medium text-gray-200 flex-row space-y-3 transition duration-1000 ease-in'
+            ? 'md:hidden absolute mobile-menu__closed top-20 w-10/12 mobile-menu h-screen font-medium text-gray-200 flex-row space-y-3 transition duration-1000 ease-in'
             : 'md:hidden absolute top-20 w-full mobile-menu h-screen font-medium text-gray-200 flex-row space-y-3 animate-fade duration-1000 ease-in-out'
         }
       >
