@@ -179,8 +179,8 @@ const Tabs = () => {
                 <button
                   className={
                     !isBuyActive
-                      ? 'py-1 px-2 rounded-lg flex items-center font-bold exchange-btn__active'
-                      : 'py-1 px-2 rounded-lg flex items-center font-bold text-white'
+                      ? 'py-0.5 px-1 md:py-1 md:px-2 rounded-lg flex items-center font-bold exchange-btn__active'
+                      : 'py-0.5 px-1 md:py-1 md:px-2 rounded-lg flex items-center font-bold text-white'
                   }
                   onClick={() => handleSwitch()}
                 >
@@ -206,8 +206,8 @@ const Tabs = () => {
                 <button
                   className={
                     isBuyActive
-                      ? 'py-1 px-2 rounded-lg bg-transparent flex items-center font-bold exchange-btn__active'
-                      : 'py-1 px-2 rounded-lg bg-transparent flex items-center text-white font-bold'
+                      ? 'py-0.5 px-1 md:py-1 md:px-2 rounded-lg bg-transparent flex items-center font-bold exchange-btn__active'
+                      : 'py-0.5 px-1 md:py-1 md:px-2 rounded-lg bg-transparent flex items-center text-white font-bold'
                   }
                   onClick={() => handleSwitch()}
                 >
