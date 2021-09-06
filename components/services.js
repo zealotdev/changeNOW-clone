@@ -1,7 +1,7 @@
 const Services = () => {
   return (
     <div className="bg-white w-screen">
-      <div className="md:w-11/12 xl:w-10/12 mx-auto pt-20">
+      <div className="md:w-11/12 xl:w-10/12 mx-auto pt-20 pb-10">
         <h1 className="text-gray-800 text-3xl md:text-4xl font-bold">
           <span className="relative">
             The Service You Deserve
