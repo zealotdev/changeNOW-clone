@@ -2,13 +2,15 @@ const Services = () => {
   return (
     <div className="bg-white w-screen">
       <div className="md:w-11/12 xl:w-10/12 mx-auto pt-20">
-        <h1 className="text-gray-800 text-4xl font-bold relative">
-          The Service You Deserve
-          <img
-            className="absolute -top-4 right-80"
-            src="./svg/index/stars-for-general-title.svg"
-            alt="stars"
-          />
+        <h1 className="text-gray-800 text-3xl md:text-4xl font-bold">
+          <span className="relative">
+            The Service You Deserve
+            <img
+              className="absolute -top-3 -right-5"
+              src="./svg/index/stars-for-general-title.svg"
+              alt="stars"
+            />
+          </span>
         </h1>
         <div className="md:flex md:justify-evenly text-left md:w-5/6 mx-auto mt-20 items-center space-x-4 px-2 md:p-0">
           <img
