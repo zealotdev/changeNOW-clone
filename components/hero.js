@@ -2,8 +2,8 @@ import { Tabs } from './tabs';
 
 const Hero = () => {
   return (
-    <div className="md:hero-bg bg-cover bg-no-repeat bg-center w-full h-screen ">
-      <div className="flex flex-col md:flex-row justify-between">
+    <section className="w-full h-auto ">
+      <div className="md:hero-bg bg-cover bg-no-repeat bg-center flex flex-col md:flex-row justify-between">
         <div className="text-left flex flex-col items-start space-y-4 mt-10 md:mt-20">
           <h1 className="text-5xl font-normal tracking-wider leading-relaxed text-white">
             Limitless Crypto <br /> Exchange
@@ -135,7 +135,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
