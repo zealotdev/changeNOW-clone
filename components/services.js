@@ -23,7 +23,9 @@ const Services = () => {
               your favorite coin. You don't have to worry about any upper limits
               — swap as much crypto in one go as you want.
             </p>
-            <a className="md:cursor-pointer text-green-500">Find out more ></a>
+            <a className="md:cursor-pointer text-green-500">
+              Find out more {'>'}
+            </a>
           </div>
         </div>
         <div className="md:flex md:flex-row-reverse md:justify-evenly text-left md:w-5/6 mx-auto mt-20 items-center space-x-4 px-2 md:p-0">
@@ -39,7 +41,9 @@ const Services = () => {
               ChangeNOW does not control your crypto assets. We do not store
               your funds or require registration.
             </p>
-            <a className="md:cursor-pointer text-green-500">Find out more ></a>
+            <a className="md:cursor-pointer text-green-500">
+              Find out more {'>'}
+            </a>
           </div>
         </div>
         <div className="md:flex md:justify-evenly text-left md:w-5/6 mx-auto mt-20 items-center space-x-4 px-2 md:p-0">
@@ -55,7 +59,7 @@ const Services = () => {
               crypto in 2 minutes on average. We also support Visa and
               MasterCard for fast and easy fiat-to-crypto purchases.
             </p>
-            <a className="md:cursor-pointer text-green-500">Try it ></a>
+            <a className="md:cursor-pointer text-green-500">Try it {'>'}</a>
           </div>
         </div>
         <div className="md:flex md:flex-row-reverse md:justify-evenly text-left md:w-5/6 mx-auto mt-20 items-center space-x-4 px-2 md:p-0">
@@ -71,7 +75,9 @@ const Services = () => {
               We work with multiple cryptocurrency trading platforms and
               exchange partners to guarantee the best rates to our clients.
             </p>
-            <a className="md:cursor-pointer text-green-500">Find out more ></a>
+            <a className="md:cursor-pointer text-green-500">
+              Find out more {'>'}
+            </a>
           </div>
         </div>
       </div>
