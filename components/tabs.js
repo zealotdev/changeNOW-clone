@@ -18,7 +18,7 @@ const Tabs = () => {
   };
 
   return (
-    <div className="md:tab-w-lg tab-bg rounded-lg bg-gray-700 mt-10 text-sm font-semibold ">
+    <div className="w-screen md:tab-w-min lg:tab-w-lg tab-bg rounded-lg bg-gray-700 mt-10 text-sm font-semibold ">
       <div className="flex text-white mx-auto w-full justify-evenly ">
         <button
           className={

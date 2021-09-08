@@ -50,6 +50,9 @@ select {
   .tab-bg {
     background-color: #343443;
   }
+  .tab-w-min {
+    width: 32rem;
+  }
   .tab-w-lg {
     width: 36rem;
   }
