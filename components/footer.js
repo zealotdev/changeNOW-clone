@@ -1,3 +1,14 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faFacebookF,
+  faTwitter,
+  faInstagram,
+  faMedium,
+  faYoutube,
+  faTelegramPlane,
+  faRedditAlien,
+} from '@fortawesome/free-brands-svg-icons';
+
 const Footer = () => {
   const exchangePairsOne = [
     'BTC to ETH',
@@ -80,13 +91,13 @@ const Footer = () => {
   return (
     <div className=" w-full">
       {/* Footer links */}
-      <div className="flex w-full justify-between mt-16">
+      <div className="md:flex w-full justify-between mt-16">
         {/* Exchange Pairs Links */}
-        <div className="w-3/12 text-left">
+        <div className="md:w-3/12 text-left">
           <span className="text-gray-600 text-sm font-bold">
             Exchange Pairs
           </span>
-          <div className="flex justify-between w-11/12 pt-4">
+          <div className="flex justify-between w-full md:w-11/12 pt-4">
             <ul>
               {exchangePairsOne.map((pair) => {
                 return (
@@ -118,7 +129,7 @@ const Footer = () => {
           </div>
         </div>
         {/* Supported Coins Links */}
-        <div className="text-left">
+        <div className="text-left mt-10 md:mt-0">
           <span className="text-gray-600 text-sm font-bold">
             Supported Coins
           </span>
@@ -215,7 +226,7 @@ const Footer = () => {
       {/* Footer banner */}
       <div className="mt-10 flex justify-between">
         {/* logo */}
-        <div className="flex justify-between relative w-2/12">
+        <div className="hidden md:flex justify-between relative md:w-2/12">
           <a className="flex space-x-4" href="#">
             <img
               src="./svg/logotype.svg"
@@ -243,9 +254,9 @@ const Footer = () => {
         </div>
       </div>
       {/* Rates and Social Links */}
-      <div className="flex justify-between mt-10">
+      <div className="flex flex-col md:flex-row md:justify-between mt-10">
         {/* Rate Us */}
-        <div className="flex space-x-2 items-center">
+        <div className="flex space-x-2 items-center mx-auto md:mx-0">
           <span className="text-gray-600 text-sm font-normal">Rate us on</span>
           {/* <img src="./svg/trustpilot-fresh.svg" alt="trustpilot-logo" /> */}
           <span className="text-white">TRUSTPILOT</span>
@@ -255,10 +266,32 @@ const Footer = () => {
           </a>
         </div>
         {/* Social Links */}
-        <div className="text-white font-extralight italic">get social</div>
+        <div className="mt-4 md:mt-0 flex mx-auto md:mx-0 space-x-3 text-white font-extralight italic">
+          <a href="facebook.com">
+            <FontAwesomeIcon icon={faFacebookF} />
+          </a>
+          <a href="twitter.com">
+            <FontAwesomeIcon icon={faTwitter} />
+          </a>
+          <a href="twitter.com">
+            <FontAwesomeIcon icon={faTelegramPlane} />
+          </a>
+          <a href="twitter.com">
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+          <a href="twitter.com">
+            <FontAwesomeIcon icon={faRedditAlien} />
+          </a>
+          <a href="twitter.com">
+            <FontAwesomeIcon icon={faMedium} />
+          </a>
+          <a href="twitter.com">
+            <FontAwesomeIcon icon={faYoutube} />
+          </a>
+        </div>
       </div>
       {/* Copyright */}
-      <div className="flex justify-center items-center mt-10 mb-16 space-x-4">
+      <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 justify-center items-center mt-10 mb-16 space-x-4">
         <span className="text-white text-sm font-light">
           &copy;changeNOW - {new Date().getFullYear()} CHN Group Limited
         </span>
