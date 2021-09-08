@@ -1,1 +1,1 @@
-changeNOW - is a crypto exchange platform(swap). This is it's clone build using NextJS and TailwindCSS
+changeNOW - is a crypto exchange platform(swap). This is it's landing page ui clone build using NextJS and TailwindCSS
