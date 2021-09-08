@@ -5,10 +5,13 @@ const Hero = () => {
     <section className="w-full h-auto ">
       <div className="md:hero-bg bg-cover bg-no-repeat bg-center flex flex-col md:flex-row justify-between">
         <div className="text-left flex flex-col items-start space-y-4 mt-10 md:mt-20">
-          <h1 className="text-5xl font-normal tracking-wider leading-relaxed text-white">
-            Limitless Crypto <br /> Exchange
+          <h1 className="text-3xl md:text-5xl font-normal tracking-wider leading-relaxed text-white">
+            <span className="hidden md:block">
+              Limitless Crypto <br /> Exchange
+            </span>
+            <span className="md:hidden">Limitless Crypto Exchange</span>
           </h1>
-          <span className="text-gray-600 text-3xl">
+          <span className="text-gray-600 tet-2xl md:text-3xl">
             Fast Crypto Swap, Free of Custody
           </span>
           <button className="py-1 px-3 text-yellow-400 border border-yellow-400 hover:text-white hover:bg-yellow-400 transition-all duration-300">
